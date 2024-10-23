@@ -7,16 +7,24 @@
   background-color: #242424;
 }
 
+html,
 body {
+  height: 100%;
   margin: 0;
+}
+
+body {
   min-width: 320px;
-  height: 100vh;
 }
 
 h1 {
   font-size: 2rem;
   line-height: 1.2;
   text-align: center;
+}
+
+.wrapper {
+  height: 80%;
 }
 
 .canvas-wrapper {
